@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tips>
+	<tip title="energy star" cat="power" diff="hard">
+			<description>When purchasing appliances, consider buying "energystar" certified appliances to radically reduce the amount of electricity used by older appliances.</description>
+			<steps></steps>
+			<src></src>
+			<links>
+				<link title="The Official Website of Energystar">http://www.energystar.gov/</link>
+			</links>
+			<cost>$60+</cost>				
+	</tip>
+	
+	<tip title="shut the faucet" cat="water" diff="easy">
+			<description>Turn off the water while you brush your teeth. There is never a good reason for waste.</description>
+			<steps></steps>
+			<src></src>
+			<cost>$0</cost>
+
+	</tip>
+	
+	<tip title="duplex printing" cat="paper" diff="easy">
+			<description>When printing, setup your printer so it prints on both sides of the paper. Many modern printers have this feature included. If this feature is not included, it can easily be replicated by printing odd pages first and then using the same paper to pring the even pages.</description>
+			<steps></steps>
+			<src></src>
+			<cost>$0</cost>
+			<links>
+				<link title="Wikipedia page on Duplex Printing">http://en.wikipedia.org/wiki/Duplex_printing</link>
+				<link title="How to use duplex printing in Microsoft Word">http://office.microsoft.com/en-us/word-help/print-on-both-sides-of-the-paper-duplex-printing-HP001154387.aspx</link>
+			</links>
+	</tip>
+	
+	<tip title="vampire electricity" cat="power" diff="easy">
+			<description>Unplug electronics that you are not using and do not over change your gadgets (it is a waste of electricity and it shortens the lifespan of your devices). Many electronics consume energy while they are plugged in, even if they are turned off.</description>
+			<steps></steps>
+			<src></src>
+			<cost>$0</cost>
+			<links>
+				<link title="Video explanation of vampire energy">http://www.youtube.com/watch?v=zgZfry82LC4</link>
+				<link title=""></link>
+			</links>			
+
+	</tip>
+	
+	<tip title="low-flow faucets" cat="water" diff="medium">
+			<description>Low-flow faucets and shower heads use a lot less water than conventional faucets. You might also want consider buying low-flow toilets as well.</description>
+			<price_range>$70</price_range>
+			<src></src>
+			<links>
+				<link title="The Official Website of WaterSense">http://www.epa.gov/WaterSense/</link>
+				<link title="What are Low-Flow faucets?">http://www.ehow.com/facts_5835372_low_flow-faucets_.html</link>
+			</links>			
+			<cost>$70</cost>
+	</tip>	
+	
+	<tip title="Use your dryer while it is hot" cat="power" diff="easy">
+			<description>When doing laundry, dry loads consecutively, while the temperature inside of it is still high.</description>
+			<steps></steps>
+			<src></src>
+			<links>
+				<link title=""></link>
+			</links>
+			<cost>$0</cost>			
+	</tip>
+	
+	<tip title="Cold wash" cat="water" diff="easy">
+			<description>90% of the energy used by washers is used to heat up the water. When possible use warm water, and rinse with cold water.</description>
+			<steps></steps>
+			<src></src>
+			<links>
+				<link title="The Official Website of WaterSense">http://www.epa.gov/WaterSense/</link>
+			</links>
+			<cost>$0</cost>			
+	</tip>
+	
+	<tip title="motion detection and timers" cat="power" diff="medium">
+			<description>In order to avoid leaving lights or appliances on, consider using timers or motion detectors to do it automatically.</description>
+			<steps></steps>
+			<src></src>
+			<links>
+				<link title="The Official Website of WaterSense">http://www.epa.gov/WaterSense/</link>
+			</links>
+			<cost>$20</cost>			
+	</tip>
+	
+	<tip title="rechargeable batteries" cat="power" diff="medium">
+			<description>In the recent years, rechargeable batteries have improved dramatically and they are now sold in most convenience stores and in almost all common types. Using rechargeable batteries also reduces the amount of water.</description>
+			<steps></steps>
+			<src></src>
+			<links>
+				<link title="Wikipedia page on Rechargeable batteries">http://en.wikipedia.org/wiki/Rechargeable_battery</link>
+				<link title="Green batteries store">http://www.greenbatteries.com/</link>
+			</links>
+			<cost>$10</cost>			
+	</tip>
+	
+	<tip title="baths" cat="water" diff="easy">
+			<description>Intead of taking bath(which use a considerable amount of water), trying taking a shower instead.</description>
+			<steps></steps>
+			<src></src>
+			<links>
+				
+			</links>
+			<cost>$0</cost>			
+	</tip>
+	
+	<tip title="ereaders" cat="paper" diff="hard">
+			<description>Consider replacing reading materials to electronic formats. Ereaders are perfect for paperbacks, documents, and many articles. Their weight and size often times make them extremely more portable than their paper counter-parts.</description>
+			<steps></steps>
+			<src></src>
+			<links>
+				<link title="Kindle page in Amazon">http://www.amazon.com/gp/product/B002Y27P3M/ref=r_kdia_h_i_gl</link>
+				<link title="Official Nook page">http://www.barnesandnoble.com/nook/index.asp</link>
+
+			</links>
+			
+			<cost>$130+</cost>			
+	</tip>
+	
+	<tip title="watersense certification" cat="water" diff="hard">
+			<description>When purchasing appliances or faucets, look for "watersense" certification, it is the equivalent of "energystar" for water usage.</description>
+			<steps></steps>
+			<src></src>
+			<links>
+				<link title="The Official Website of WaterSense">http://www.epa.gov/WaterSense/</link>
+			</links>
+			<cost>$30+</cost>
+	</tip>
+	
+	<tip title="Use CFL lightbulbs" cat="power" diff="medium">
+			<description>Replace as many light bulbs around your house with CFL or LED light bulbs. Start by changing the light bulbs you use the most often, and then move on to the rest to the house.</description>
+			<steps></steps>
+			<src></src>
+			<links>
+				<link title="GE CFL savings calculator">http://www.gelighting.com/na/home_lighting/products/pop_lighting_calc.htm</link>
+			</links>
+			<cost>$4</cost>
+	</tip>
+	
+
+</tips>
