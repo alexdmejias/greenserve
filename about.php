@@ -81,7 +81,7 @@
                     
                     <div id="main-right" class="grid_21 push_3 omega">
 						<h1>Why?</h1>
-				<p>The main reason why we have spent so much time and effort into building this website is so people can visually see how some of the actions they can take can save them a lot of money. At Greenserve we realized that just by telling people to go "green" will not help or do anything. In order to motivate people to take more consious decisions we will try to show them that they can truly save money, and the more 'tips' you follow, the more money you will be able to see.</p>
+				        <p>The main reason why we have spent so much time and effort into building this website is so people can visually see how some of the actions they can take can save them a lot of money. At Greenserve we realized that just by telling people to go "green" will not help or do anything. In order to motivate people to take more consious decisions we will try to show them that they can truly save money, and the more 'tips' you follow, the more money you will be able to see.</p>
                     </div>
                 </div>                
             </div>        

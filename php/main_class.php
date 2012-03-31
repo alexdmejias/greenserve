@@ -1,13 +1,15 @@
 <?php
 class main{
-
-
 	function main_includes(){
 		echo '
-			  <link rel="stylesheet" type="text/css" href="CSS/grid.css"></link>
-              <link rel="stylesheet" type="text/css" href="CSS/reset-context-min.css"></link>
-			  <link rel="stylesheet" type="text/css" href="CSS/slider_style.css"></link>
-			  <link rel="stylesheet" type="text/css" href="CSS/main.css"></link>
+			<link rel="stylesheet" type="text/css" href="CSS/grid.css"></link>
+         <link rel="stylesheet" type="text/css" href="CSS/reset-context-min.css"></link>
+			<link rel="stylesheet" type="text/css" href="CSS/slider_style.css"></link>
+			<link rel="stylesheet" type="text/css" href="CSS/main.css"></link>
+
+
+			<!-- TEST STYLE -->
+			<link rel="stylesheet" type="text/css" href="CSS/main.css"></link>
 
 			<!--FOR TYPEKIT-->
 			<script type="text/javascript" src="http://use.typekit.com/ylo0cys.js"></script>

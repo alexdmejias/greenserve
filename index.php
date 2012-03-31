@@ -67,10 +67,6 @@
 							  echo'<li></li>';
 							  echo'<li></li>';
 							  echo'<li></li>';
-							  
-/*							  echo $main->main_slider_nav_item('IMG/slider/thumbs/inactive.png','thumbnail');
-							  echo $main->main_slider_nav_item('IMG/slider/thumbs/inactive.png','thumbnail');
-							  echo $main->main_slider_nav_item('IMG/slider/thumbs/inactive.png','thumbnail');
 */							  
 							  echo $main->main_slider_nav_close();
 						?>
