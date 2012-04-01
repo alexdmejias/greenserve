@@ -67,7 +67,7 @@
 							  echo'<li></li>';
 							  echo'<li></li>';
 							  echo'<li></li>';
-*/							  
+						  
 							  echo $main->main_slider_nav_close();
 						?>
                         </div>			
