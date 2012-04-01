@@ -10,7 +10,8 @@
 <?php 
 	$main->main_includes();
 	$main->main_includes_add_js('http://www.google.com/jsapi');
-	$main->main_includes_add_js('JS/charts.js');
+    $main->main_includes_add_js('JS/charts.js');
+	//$main->main_includes_add_js('responsive/gridpak.js');
 	
 	$main->main_title('Greenserve - Home - Energy saving tips');
 	
