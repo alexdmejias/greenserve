@@ -128,15 +128,18 @@ a:hover, .active {
   text-decoration: none;
 }
 @media screen and (min-width: 0px) and (max-width: 480px) {
-  body:before {
-    content: "0-480";
-    background: rgba(163, 43, 41, 0.7);
-    width: 100%;
-    padding: 10px 0;
-  }
+  /*body:before{
+  	content:"0-480";
+  	background:hsla(90%,60%,40%,0.7);
+  	width:100%;
+  	padding:10px 0;
+  }*/
   body {
     width: 90%;
     margin: 15px auto;
+  }
+  body #header {
+    height: auto;
   }
   body #header #logo {
     text-align: center;
@@ -144,18 +147,23 @@ a:hover, .active {
   body #header #nav #navlist {
     margin-top: 20px;
   }
-  body .container_48 .grid_48 {
+  body .container_48 .grid_48,
+  body .container_48 .grid_44,
+  body .container_48 .grid_26,
+  body .container_48 .grid_19 {
     width: 100%;
   }
   body .container_48 .left_1,
   body .container_48 .left_2,
   body .container_48 .push_1,
-  body .container_48 .push_2 {
+  body .container_48 .push_2,
+  body .container_48 .push_3 {
     left: 0;
   }
-  body .container_48 .grid_20 {
-    width: 90%;
-    left: 20px;
+  body .container_48 .grid_20, body .container_48 .grid_21 {
+    width: 100%;
+    /*left:20px;*/
+  
   }
   body ul {
     margin-left: 6%;
@@ -163,7 +171,10 @@ a:hover, .active {
   body ul li {
     margin-bottom: 10px;
   }
-  .spacer, #banner {
+  .spacer,
+  #banner,
+  .hide,
+  #footer_left {
     display: none;
   }
   .container_48 {
@@ -171,23 +182,106 @@ a:hover, .active {
     margin: 0 auto;
   }
   #content {
-    width: 100%;
+    width: 90%;
     background: #fff;
     left: 0;
-    /*margin:0 auto;*/
-  
-    margin-top: 30px;
+    padding: 0 5% 20px 5%;
+  }
+  #content ul {
+    list-style-image: url('../IMG/bullets-01.jpg');
   }
   #content #content-top blockquote {
+    font-family: "museo_slab", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
     font-size: 20px;
+  }
+  #content #main-right h1 {
+    font-size: 0px;
+  }
+  #content #main-right #main_sign, #content #main-right form {
+    text-align: center;
+  }
+  #content #main-right #main_sign_email_field {
+    width: 85%;
+    font-size: 30px;
+    margin: 10px auto;
+  }
+  #content #main-left #subnav {
+    width: 100%;
+  }
+  #content #main-left #subnav li {
+    font-family: "museo_sans", Helvetica, Arial, sans-serif;
+    margin: 10px 0;
+  }
+  #content #main-left .tip_container a {
+    font-family: "museo_slab", Helvetica, Arial, sans-serif;
+  }
+  #content #main-left .tip_container .tip_title {
+    font-family: "museo_sans", Helvetica, Arial, sans-serif;
+  }
+  #content #main-left .tip_container .tip_body {
+    min-height: 300px;
+    padding-left: 0;
+  }
+  #content #main-left #submit_tip_form fieldset {
+    width: 100%;
+    border: 0;
+    margin-bottom: 10px;
+    font: 25px "museo_slab", Helvetica, Arial, sans-serif;
+  }
+  #content #main-left #submit_tip_form fieldset textarea {
+    width: 100%;
+  }
+  #content #main-left #submit_tip_form fieldset label {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  #content #main-left #submit_tip_form fieldset #submit {
+    color: #FFFFFF;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    background-color: #95d369;
+    font: 24px "museo_slab", Helvetica, Arial, sans-serif;
+    border: 0;
+    height: 40px;
+    cursor: pointer;
+    cursor: hand;
+  }
+  #footer {
+    margin-top: 15px;
+    width: 100%;
+  }
+  #footer #footer_middle {
+    color: #FFF;
+    text-decoration: none;
+    width: 95%;
+    margin: 15px auto;
+    background-color: #7C888A;
+    padding-left: 20px;
+  }
+  #footer #footer_middle a {
+    color: #FFF;
+    text-decoration: none;
+  }
+  #footer #footer_right {
+    width: 100%;
+    margin: 0 auto 10px;
+    text-align: center;
+    left: 0;
+  }
+  #footer #footer_right h2 {
+    margin-bottom: 5px;
   }
 }
 @media screen and (min-width: 481px) {
-  body:before {
-    content: "481 - max";
-    background: red;
-    padding: 10px 0;
-  }
+  /*body:before{
+  	content:"481 - max";
+  	background:red;
+  	padding:10px 0;
+  }*/
   #header {
     height: 100px;
   }

@@ -19,6 +19,9 @@ class main{
 			<script language="javascript" type="text/javascript" src="js/jquery.easing.js"></script>
  			<script language="javascript" type="text/javascript" src="js/script.js"></script>
 			<script src="JS/slider.js" type="text/javascript"></script>
+
+			<meta name="viewport" content="initial-scale=1.0,width=device-width"/>
+
 			';
 	}
 	

@@ -161,20 +161,20 @@ a:hover,.active {
 }
 
 
-
 @media screen and (min-width: 0px) and (max-width: 480px) {
-body:before{
+/*body:before{
 	content:"0-480";
 	background:hsla(90%,60%,40%,0.7);
 	width:100%;
 	padding:10px 0;
-}
+}*/
 	
 	body{
 		width:90%;
 		margin:15px auto;
 	
 		#header{
+			height:auto;
 			#logo{
 				text-align:center;
 			}
@@ -186,15 +186,15 @@ body:before{
 		}
 
 		.container_48{
-			.grid_48{
+			.grid_48,.grid_44,.grid_26,.grid_19{
 				width:100%;
 			}
-			.left_1,.left_2,.push_1,.push_2{
+			.left_1,.left_2,.push_1,.push_2,.push_3{
 				left:0;
 			}
-			.grid_20{
-				width:90%;
-				left:20px;
+			.grid_20,.grid_21{
+				width:100%;
+				/*left:20px;*/
 			}
 		}
 
@@ -205,7 +205,7 @@ body:before{
 			}
 		}
 	}
-	.spacer,#banner{
+	.spacer,#banner,.hide,#footer_left{
 		display: none;
 	}
 
@@ -214,14 +214,112 @@ body:before{
 		margin:0 auto;
 	}
 	#content{
-		width:100%;
+		width:90%;
 		background:#fff;
 		left:0;
-		/*margin:0 auto;*/
-		margin-top:30px;
+		padding: 0 5% 20px 5%;
+		ul{
+			list-style-image: url('../IMG/bullets-01.jpg');
+		}
 		#content-top{
 			blockquote{
+				font-family:@display_serif;
+				font-weight:700;
+				text-align:center;
+				margin-top:20px;
 				font-size:20px;
+			}
+		}
+
+
+		#main-right{
+			h1{
+				font-size:0px;
+			}
+			#main_sign, form{
+				text-align:center;
+			}
+			#main_sign_email_field{
+				width:85%;
+				font-size:30px;
+				margin:10px auto;
+			}
+
+
+		}
+
+		#main-left{
+			#subnav{
+				width:100%;
+				li{
+					font-family:@display_sans;
+					margin:10px 0;
+				}
+			}
+			.tip_container{
+				a{
+					font-family:@display_serif;
+				}
+				.tip_title{
+					font-family:@display_sans;
+				}
+				.tip_body{
+					min-height:300px;
+					padding-left:0;
+				}
+			}
+			#submit_tip_form{
+				fieldset{
+					width: 100%;
+					border:0;
+					margin-bottom: 10px;
+					font: 25px @display_serif;
+					textarea{
+						width:100%;
+					}
+					label{
+						font-size:16px;
+						margin-top:5px;
+					}
+
+					#submit {
+						color: #FFFFFF;
+						margin: auto;
+						text-align: center;
+						width: 100%;
+						background-color: rgb(149, 211, 105);
+						font: 24px @display_serif;
+						border: 0;
+						height: 40px;
+						cursor: pointer;
+						cursor: hand;
+					}	
+				}
+			}
+		}
+	}
+	#footer{
+		margin-top:15px;
+		width:100%;
+		#footer_middle{
+			color: #FFF;
+			text-decoration:none;
+			width:95%;
+			margin:15px auto;
+			background-color:#7C888A;
+			padding-left:20px;
+			a{
+				color: #FFF;
+				text-decoration:none;
+			}
+		} 
+		#footer_right{
+			width:100%;
+			margin: 0 auto 10px;
+			text-align:center;
+			left:0;
+			h2{
+				margin-bottom:5px;
 			}
 		}
 	}
@@ -232,11 +330,11 @@ body:before{
 
 @media screen and (min-width: 481px) {
 
-body:before{
+/*body:before{
 	content:"481 - max";
 	background:red;
 	padding:10px 0;
-}
+}*/
 
 
 #header{

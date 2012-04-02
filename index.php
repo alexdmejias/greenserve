@@ -18,7 +18,7 @@
 	include_once('php/analytics.php'); 
 ?>
 
-
+    
 </head>
 
 <body>
@@ -91,16 +91,21 @@
                             <li><p class="">When purchasing appliances or faucets, look for "watersense" certification, it is the equivalent of "energystar" for water usage.</p></li>
                             <li><p class="">Consider replacing reading materials to electronic formats. Ereaders are perfect for paperbacks, documents, and many articles. Their weight and size often times make them extremely more portable than their paper counter-parts.</p></li>
                             <li><p class="">Instead of taking a bath, try taking a shower instead. A short shower can drastically reduce the amount of water used, it also reduces the amount of energy requiered to heat all the water used.</p></li>
-                        </ul><p><b><a href="tips.php">View more tips</a></b></p>
+                        </ul>
+                        <p><b><a href="tips.php">View more tips</a></b></p>
                     </div> <!--end left main content -->              
                     
                     <div id="main-right" class="grid_21 push_3 omega">
                     <!--draw graphs from 'charts.js'-->
-						<h1>CFL Lightbulb Savings</h1>
-                        <div id="graph_cfl"></div>
+						<div class="hide">
+                            <h1>CFL Lightbulb Savings</h1>
+                            <div id="graph_cfl"></div>
+                        </div>
 
-                        <h1>Water Usage per Minute</h1>
-                        <div id="graph_gpm"></div>
+                        <div class="hide">
+                            <h1>Water Usage per Minute</h1>
+                            <div id="graph_gpm"></div>
+                        </div>
 
                     </div>
                 </div>                

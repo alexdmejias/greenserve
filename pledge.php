@@ -74,7 +74,7 @@
 					</div>
 				</div><!--  END content-top -->
 				<div id="content-bottom">
-					<div class="grid_22 prefix_1 alpha">
+					<div class="grid_22 prefix_1 alpha hide">
 						<script src="http://widgets.twimg.com/j/2/widget.js"></script>
 						<script>
 							new TWTR.Widget({
@@ -110,7 +110,7 @@
 							}).render().start();
 						</script>
 					</div> 
-					<div id="fb" class="grid_20 omega">
+					<div id="fb" class="grid_20 omega hide ">
 						<div id="fb-root">
 						</div>
 						<script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
