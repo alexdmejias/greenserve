@@ -16,11 +16,7 @@
 </head>
 
 <body>
-<!--SPACER-->
-	<div class="container_48" id="spacer1">
-    	<div class="grid_44 push_2 spacer1"></div>
-    </div>
-<!--SPACER-->    <div  class="container_48">        
+   <div  class="container_48">        
             <div id="header" class="grid_48">
                 <div  class="grid_44 push_2">                                
                     <div id="logo" class="grid_16 alpha">
@@ -33,8 +29,8 @@
                 </div>                                      
             </div>        
     </div>      <!--SPACER-->    
-	<div class="container_48" id="spacer2">
-    	<div class="grid_44 push_2 spacer2"></div>
+	<div class="container_48" id="spacer">
+    	<div class="grid_44 push_2 spacer"></div>
     </div>  
 <!--SPACER-->
 
@@ -64,8 +60,8 @@
     </div>
        
 <!--SPACER-->    
-	<div class="container_48" id="spacer3">
-    	<div class="grid_44 push_2 spacer3"></div>
+	<div class="container_48" id="spacer">
+    	<div class="grid_44 push_2 spacer"></div>
     </div>
 <!--SPACER-->    
                        
@@ -88,8 +84,8 @@
     </div>
         
 <!--SPACER-->
-	<div class="container_48" id="spacer4">
-    	<div class="grid_44 push_2 spacer4"></div>
+	<div class="container_48" id="spacer">
+    	<div class="grid_44 push_2 spacer"></div>
     </div>
 <!--SPACER-->    
     

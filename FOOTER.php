@@ -1,6 +1,6 @@
 <!--SPACER-->
-	<div class="container_48" id="spacer4">
-    	<div class="grid_44 push_2 spacer4"></div>
+	<div class="container_48" id="spacer">
+    	<div class="grid_44 push_2 spacer"></div>
     </div>
 <!--SPACER-->    
     

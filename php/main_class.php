@@ -3,11 +3,10 @@ class main{
 	function main_includes(){
 		echo '
 			<!-- ALL STYLE SHEETS COMBINED -->
-			<link rel="stylesheet" type="text/css" href="CSS/styles.css"></link>
+			<link rel="stylesheet" type="text/css" href="CSS/main.css"></link>
 
 			<!--FOR TYPEKIT-->
-			<script type="text/javascript" src="http://use.typekit.com/ylo0cys.js"></script>
-			<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+			
 			
 			<!--FOR JQUERY-->
 			<script src="JS/jquery-1.6.1.min.js" type="text/javascript"></script>
@@ -26,7 +25,6 @@ class main{
 	function main_includes_add_css($src){
 		echo '
 			  <link rel="stylesheet" type="text/css" href="'.$src.'"></link>
-
 		';
 	}
 	
