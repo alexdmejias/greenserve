@@ -97,7 +97,7 @@
                     
                     <div id="main-right" class="grid_21 push_3 omega">
                     <!--draw graphs from 'charts.js'-->
-						<div class="hide">
+						<div class="figure">
                             <h1>CFL Lightbulb Savings</h1>
                             <div id="graph_cfl"></div>
                         </div>
