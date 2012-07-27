@@ -1,24 +1,25 @@
-//simpless:!minify
-@import 'reset-context-min.css';
-@import 'tips.css';
-@import 'grid.css';
-@import 'slider_style.css';
+@import 'reset';
+@import 'variables';
+// @import 'reset';
+@import 'grid';
+@import 'tips';
+@import 'slider_style';
 * {
 	padding: 0;
 	margin: 0;
-	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);  
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-@font-face {
-		font-family: 'museo_slab';
-		src: url('../Fonts/museo_slab_300-webfont.eot');
-		src: url('../Fonts/museo_slab_300-webfont.eot?#iefix') format('embedded-opentype'),
-				 url('../Fonts/museo_slab_300-webfont.woff') format('woff'),
-				 url('../Fonts/museo_slab_300-webfont.ttf') format('truetype'),
-				 url('../Fonts/museo_slab_300-webfont.svg#MuseoSlab300') format('svg');
-		font-weight: normal;
-		font-style: normal;
-}
+// @font-face {
+// 		font-family: 'museo_slab';
+// 		src: url('../Fonts/museo_slab_300-webfont.eot');
+// 		src: url('../Fonts/museo_slab_300-webfont.eot?#iefix') format('embedded-opentype'),
+// 				 url('../Fonts/museo_slab_300-webfont.woff') format('woff'),
+// 				 url('../Fonts/museo_slab_300-webfont.ttf') format('truetype'),
+// 				 url('../Fonts/museo_slab_300-webfont.svg#MuseoSlab300') format('svg');
+// 		font-weight: normal;
+// 		font-style: normal;
+// }
 @font-face {
 		font-family: 'museo_slab';
 		src: url('../Fonts/museo_slab_500-webfont.eot');
@@ -39,16 +40,16 @@
 		font-weight: 700;
 		font-style: normal;
 }
-@font-face {
-		font-family: 'museo_slab';
-		src: url('../Fonts/museo_slab_900-webfont.eot');
-		src: url('../Fonts/museo_slab_900-webfont.eot?#iefix') format('embedded-opentype'),
-				 url('../Fonts/museo_slab_900-webfont.woff') format('woff'),
-				 url('../Fonts/museo_slab_900-webfont.ttf') format('truetype'),
-				 url('../Fonts/museo_slab_900-webfont.svg#MuseoSlab900') format('svg');
-		font-weight: 900;
-		font-style: normal;
-}
+// @font-face {
+// 		font-family: 'museo_slab';
+// 		src: url('../Fonts/museo_slab_900-webfont.eot');
+// 		src: url('../Fonts/museo_slab_900-webfont.eot?#iefix') format('embedded-opentype'),
+// 				 url('../Fonts/museo_slab_900-webfont.woff') format('woff'),
+// 				 url('../Fonts/museo_slab_900-webfont.ttf') format('truetype'),
+// 				 url('../Fonts/museo_slab_900-webfont.svg#MuseoSlab900') format('svg');
+// 		font-weight: 900;
+// 		font-style: normal;
+// }
 @font-face {
 		font-family: 'museo_sans';
 		src: url('../Fonts/museosans-100-webfont.eot');
@@ -59,20 +60,20 @@
 		font-weight: 100;
 		font-style: normal;
 }
-@font-face {
-		font-family: 'museo_sans';
-		src: url('../Fonts/museosans-300-webfont.eot');
-		src: url('../Fonts/museosans-300-webfont.eot?#iefix') format('embedded-opentype'),
-				 url('../Fonts/museosans-300-webfont.woff') format('woff'),
-				 url('../Fonts/museosans-300-webfont.ttf') format('truetype'),
-				 url('../Fonts/museosans-300-webfont.svg#MuseoSans300') format('svg');
-		font-weight: 300;
-		font-style: normal;
-}
+// @font-face {
+// 		font-family: 'museo_sans';
+// 		src: url('../Fonts/museosans-300-webfont.eot');
+// 		src: url('../Fonts/museosans-300-webfont.eot?#iefix') format('embedded-opentype'),
+// 				 url('../Fonts/museosans-300-webfont.woff') format('woff'),
+// 				 url('../Fonts/museosans-300-webfont.ttf') format('truetype'),
+// 				 url('../Fonts/museosans-300-webfont.svg#MuseoSans300') format('svg');
+// 		font-weight: 300;
+// 		font-style: normal;
+// }
 
-@display_sans: "museo_sans",Helvetica,Arial,sans-serif;
-@display_serif: "museo_slab",Helvetica,Arial,sans-serif;
-@body_par: Helvetica,Arial,sans-serif; 
+// @sans: Helvetica,Verdana,sans-serif;
+// @serif: "museo_slab",Helvetica,Arial,sans-serif;
+// @body_par: Helvetica,Verdana,sans-serif;
 
 body {
 	background: url(../IMG/bg-23.jpg) repeat bottom;
@@ -87,7 +88,7 @@ img {
 }
 
 h1, h2, h3 {
-	font-family: @display_serif;
+	font-family: @serif;
 	font-weight: 700;
 	margin: 15px 0;
 }
@@ -96,11 +97,11 @@ p{
 	font-family: @body_par;
 	display: inline;
 	margin-bottom:10px;
-	line-height:1.35em;
+	line-height:1.55em;
 }
 
 b{
-	font-family: @display_serif;
+	font-family: @serif;
 }
 
 a:link {
@@ -146,18 +147,19 @@ a:hover,.active {
 			list-style: none;
 
 			li{
-				font-size:18px;
-				font-weight:800;
+				// font-size:18px;
+				// font-weight:700;
 				float:left;
 				padding-left:25px;
 				text-transform:uppercase;
-				font-family:@display_serif;
+				// font-family:@serif;
+				font: normal normal 700 18px @serif;
 				a{
 					text-decoration:none;
 				}
 			}
 		}
-	}  
+	}
 }
 
 
@@ -168,11 +170,11 @@ a:hover,.active {
 	width:100%;
 	padding:10px 0;
 }*/
-	
+
 	body{
 		width:90%;
 		margin:15px auto;
-	
+
 		#header{
 			height:auto;
 			#logo{
@@ -223,7 +225,7 @@ a:hover,.active {
 		}
 		#content-top{
 			blockquote{
-				font-family:@display_serif;
+				font-family:@serif;
 				font-weight:700;
 				text-align:center;
 				margin-top:20px;
@@ -252,16 +254,16 @@ a:hover,.active {
 			#subnav{
 				width:100%;
 				li{
-					font-family:@display_sans;
+					font-family:@sans;
 					margin:10px 0;
 				}
 			}
 			.tip_container{
 				a{
-					font-family:@display_serif;
+					font-family:@serif;
 				}
 				.tip_title{
-					font-family:@display_sans;
+					font-family:@sans;
 				}
 				.tip_body{
 					min-height:300px;
@@ -273,7 +275,7 @@ a:hover,.active {
 					width: 100%;
 					border:0;
 					margin-bottom: 10px;
-					font: 25px @display_serif;
+					font: 25px @serif;
 					textarea{
 						width:100%;
 					}
@@ -288,12 +290,12 @@ a:hover,.active {
 						text-align: center;
 						width: 100%;
 						background-color: rgb(149, 211, 105);
-						font: 24px @display_serif;
+						font: 24px @serif;
 						border: 0;
 						height: 40px;
 						cursor: pointer;
 						cursor: hand;
-					}	
+					}
 				}
 			}
 		}
@@ -312,7 +314,7 @@ a:hover,.active {
 				color: #FFF;
 				text-decoration:none;
 			}
-		} 
+		}
 		#footer_right{
 			width:100%;
 			margin: 0 auto 10px;
@@ -352,13 +354,13 @@ a:hover,.active {
 				float:left;
 				padding-left:25px;
 				text-transform:uppercase;
-				font-family:@display_serif;
+				font-family:@serif;
 				a{
 					text-decoration:none;
 				}
 			}
 		}
-	}  
+	}
 }
 
 #content {
@@ -376,13 +378,13 @@ a:hover,.active {
 		display: none;
 	}
 	a{
-		font-family: @display_serif;
+		font-family: @serif;
 	}
-	ul{ 
+	ul{
 		margin-left: 20px;
 		color: #009999;
 		list-style-image: url('../IMG/bullets-01.jpg');
-		
+
 		li{
 			margin-bottom: 17px;
 			color: #000000;
@@ -390,7 +392,7 @@ a:hover,.active {
 		}
 	}
 	blockquote{
-		font-family:@display_serif;
+		font-family:@serif;
 		font-weight:700;
 		text-align:center;
 		margin-top:20px;
@@ -400,31 +402,31 @@ a:hover,.active {
 		#main_sign {
 			margin-bottom: 10px;
 			text-align: center;
-			font-family: @display_serif;
+			font-family: @serif;
 		}
 		#main_sign_email_field{
 			height: 45px;
 			border: #333333 thin solid;
 			width: 398px;
 			margin-bottom: 10px;
-			font: 30px @display_serif;
+			font: 30px @serif;
 		}
-				
+
 		#main_sign_button {
 			color: #FFFFFF;
 			margin: auto;
 			text-align: center;
 			width: 400px;
 			background-color: rgb(149, 211, 105);
-			font: 24px @display_serif;
+			font: 24px @serif;
 			border: 0;
 			height: 40px;
 			cursor: pointer;
 			cursor: hand;
-		}	
+		}
 	}
 	#submit_tip_form {
-		font: @display_sans;
+		font: @sans;
 		label{
 			margin-top:12px;
 			font-family:@body_par;
@@ -453,7 +455,7 @@ a:hover,.active {
 	color: #FFFFFF;
 	position: static;
 	bottom: 0;
-	
+
 	h2 {
 		width: auto;
 		text-align: left;
@@ -482,7 +484,7 @@ a:hover,.active {
 		li {
 			margin-bottom: 3px;
 			font-size: 12px;
-		}    
+		}
 	}
 
 	#footer_center{
@@ -503,7 +505,7 @@ a:hover,.active {
 				margin-top: 11px;
 				margin-left: 7px;
 			}
-		}    
+		}
 	}
 }/*END FOOTER*/
 }
