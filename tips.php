@@ -2,15 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<?php 
-	require("php/main_class.php");	
+<?php
+	require("php/main_class.php");
 	$main= new Main();
 ?>
-<?php 
+<?php
 	$main->main_includes();
 	$main->main_title('Greenserving - Tips');
-	$main->main_includes_add_js('JS/tips.js');
-	$main->main_includes_add_js('JS/jquery.gchart.js');
+
 ?>
 </head>
 <body>
@@ -31,19 +30,19 @@
 <!--SPACER-->
 	<div class="container_48" id="spacer">
 		<div class="grid_44 push_2 spacer"></div>
-	</div>  
+	</div>
 <!--SPACER-->
 	<div  class="container_48">
 		<div  class="grid_48 push_2">
 			<div id="banner" class="grid_44">
 				<?php echo $main->main_slider_init();
-					//function main_slider_item($img_path,$img_title,$img_alt,$link_loc,$link_alt,$title_size,$title_1,$title_2,$title_3){	
+					//function main_slider_item($img_path,$img_title,$img_alt,$link_loc,$link_alt,$title_size,$title_1,$title_2,$title_3){
 					echo $main->main_slider_item('IMG/slider/main/1.jpg','','#','slider tree','h1','&nbsp;<b>Tips</b>');
 					echo $main->main_slider_item('IMG/slider/main/2.jpg','','pledge.php','slider','h1','&nbsp;Sign our <b>pledge</b><br />  &nbsp;to show the world <br />&nbsp;you care.');
 					echo $main->main_slider_item('IMG/slider/main/3.jpg','','https://greenserve.wordpress.com/','Visit our blog','h2','&nbsp;visit our blog to learn<br/> &nbsp;about upcoming <br/><b>&nbsp;features</b> and contribute <br/>&nbsp;to our <b>community</b>');
 					echo $main->main_slider_item('IMG/slider/main/4.jpg','','tips.php#submit','submit a tip','h1','&nbsp;Help us by <b>submiting</b><br />&nbsp;one of your own resource <br />&nbsp;saving tips.');
 					echo $main->main_slider_close();
-					//Thumbnails 
+					//Thumbnails
 					echo $main->main_slider_nav_init();
 					echo'<li></li>';
 					echo'<li></li>';
@@ -52,13 +51,13 @@
 					echo $main->main_slider_nav_close();
 				?>
 			</div>
-		</div> 
+		</div>
 	</div>
-<!--SPACER-->    
+<!--SPACER-->
 	<div class="container_48" id="spacer">
 		<div class="grid_44 push_2 spacer"></div>
 	</div>
-<!--SPACER-->    
+<!--SPACER-->
 	<div class="container_48">
 		<div class="grid_48">  <!-- grid_48 -->
 			<div id="content" class="grid_44 push_2"><!--actual content-->
@@ -73,7 +72,7 @@
 						<li id="paper"><a href="#">Paper Tips</a></li>
 					</ul>
 					<div class="tip_container"></div>
-					
+
 					<div class="tip_whole dark">
 						<div class="tip_header">
 							<a name="submit"></a>
@@ -98,13 +97,16 @@
 		</div> <!-- end grid_48 -->
 	</div>
 	</div>
-		
+
 <!--SPACER-->
 	<div class="container_48" id="spacer">
 		<div class="grid_44 push_2 spacer"></div>
 	</div>
 <!--SPACER-->
-	
-<?php echo $main->main_footer_WHOLE(); ?>
+
+<?php echo $main->main_footer_WHOLE();
+	$main->main_includes_add_js('JS/tips.js');
+	$main->main_includes_add_js('JS/jquery.gchart.js');
+?>
 </body>
 </html>

@@ -1,7 +1,7 @@
 <?php
 $mine = 'admin@greenserve.org';
 
-$MESSAGE_BODY = "email: ".$_POST["submit_email"]. "\r\n"; 
+$MESSAGE_BODY = "email: ".$_POST["submit_email"]. "\r\n";
 $MESSAGE_BODY = "tip: ".$_POST['submit_tip'];
 $date = date("Y/m/d");
 
@@ -25,4 +25,3 @@ if ( empty($_POST['submit_email'])|| empty($_POST['submit_tip'])){
 	header( "Location:". $sucess);
 }
 ?>
-	
