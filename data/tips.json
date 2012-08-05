@@ -3,7 +3,7 @@
 	{
 		"title":"energy star",
 		"cat":"power",
-		"diff":"hard",
+		"diff":"Investment",
 		"description":"When purchasing appliances, consider buying 'energystar' certified appliances to radically reduce the amount of electricity used by older appliances.",
 		"links":[
 			{
@@ -16,7 +16,7 @@
 	{
 		"title":"shut the faucet",
 		"cat":"water",
-		"diff":"easy",
+		"diff":"No-Cost",
 		"description":"Turn off the water while you brush your teeth. There is never a good reason for waste.",
 		"cost":"$0",
 		"links":[{"title":"","url":""}]
@@ -24,7 +24,7 @@
 	{
 		"title":"duplex printing",
 		"cat":"paper",
-		"diff":"easy",
+		"diff":"No-Cost",
 		"description":"When printing, setup your printer so it prints on both sides of the paper. Many modern printers have this feature included. If this feature is not included, it can easily be replicated by printing odd pages first and then using the same paper to pring the even pages.",
 		"links":[
 			{
@@ -41,7 +41,7 @@
 	{
 		"title":"vampire electricity",
 		"cat":"power",
-		"diff":"easy",
+		"diff":"No-Cost",
 		"description":"Unplug electronics that you are not using and do not over change your gadgets (it is a waste of electricity and it shortens the lifespan of your devices). Many electronics consume energy while they are plugged in, even if they are turned off.",
 		"cost":"$0",
 		"links":[
@@ -54,7 +54,7 @@
 	{
 		"title":"low-flow faucets",
 		"cat":"water",
-		"diff":"medium",
+		"diff":"Low-Cost",
 		"description":"Low-flow faucets and shower heads use a lot less water than conventional faucets. You might also want consider buying low-flow toilets as well.",
 		"price_range":"$70",
 		"links":[{
@@ -71,14 +71,14 @@
 	{
 		"title":"Use your dryer while it is hot",
 		"cat":"power",
-		"diff":"easy",
+		"diff":"No-Cost",
 		"description":"When doing laundry, dry loads consecutively, while the temperature inside of it is still high.",
 		"cost":"$0"
 	},
 	{
 		"title":"Cold wash",
 		"cat":"water",
-		"diff":"easy",
+		"diff":"No-Cost",
 		"description":"90% of the energy used by washers is used to heat up the water. When possible use warm water, and rinse with cold water.",
 		"links":[{
 					"title":"The Official Website of WaterSense",
@@ -90,7 +90,7 @@
 	{
 		"title":"motion detection and timers",
 		"cat":"power",
-		"diff":"medium",
+		"diff":"Low-Cost",
 		"description":"In order to avoid leaving lights or appliances on, consider using timers or motion detectors to do it automatically.",
 		"links":[{
 					"title":"The Official Website of WaterSense",
@@ -102,7 +102,7 @@
 	{
 		"title":"rechargeable batteries",
 		"cat":"power",
-		"diff":"medium",
+		"diff":"Low-Cost",
 		"description":"In the recent years, rechargeable batteries have improved dramatically and they are now sold in most convenience stores and in almost all common types. Using rechargeable batteries also reduces the amount of water.",
 		"links":[{
 				"title":"Wikipedia page on Rechargeable batteries",
@@ -118,14 +118,14 @@
 	{
 		"title":"baths",
 		"cat":"water",
-		"diff":"easy",
+		"diff":"No-Cost",
 		"description":"Intead of taking bath(which use a considerable amount of water), trying taking a shower instead.",
 		"cost":"$0"
 	},
 	{
 		"title":"ereaders",
 		"cat":"paper",
-		"diff":"hard",
+		"diff":"Investment",
 		"description":"Consider replacing reading materials to electronic formats. Ereaders are perfect for paperbacks, documents, and many articles. Their weight and size often times make them extremely more portable than their paper counter-parts.",
 		"links":[{
 					"title":"Kindle page in Amazon",
@@ -139,7 +139,7 @@
 	{
 		"title":"watersense certification",
 		"cat":"water",
-		"diff":"hard",
+		"diff":"Investment",
 		"description":"When purchasing appliances or faucets, look for 'watersense' certification, it is the equivalent of 'energystar' for water usage.",
 		"links":[
 			{
@@ -152,7 +152,7 @@
 	{
 		"title":"Use CFL lightbulbs",
 		"cat":"power",
-		"diff":"medium",
+		"diff":"Low-Cost",
 		"description":"Replace as many light bulbs around your house with CFL or LED light bulbs. Start by changing the light bulbs you use the most often, and then move on to the rest to the house.",
 		"links":[
 			{

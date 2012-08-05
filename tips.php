@@ -23,11 +23,11 @@
 						<b>{{title}}</b> - {{diff}}
 					</h5>
 					<div class="tip_social">
-						<a href="">twitter</a>
-						<a href="">facebook</a>
-						<a href="">email</a>
+						<a href=""><img src="IMG/media/twitter_16.png" alt="twiter link"/></a>
+						<a href=""><img src="IMG/media/facebook_16.png" alt="facebook link"/></a>
+						<a href=""><img src="IMG/media/email_16.png" alt="email link"/></a>
 					</div>
-				</div>//end .tip_title
+				</div>{{!end .tip_title}}
 				<div class="tip_body">
 					<div class="grid_20 alpha">
 						<p class="tip_desc">{{description}}</p>
@@ -36,16 +36,16 @@
 								<div class="tip_links">
 									<h5>{More information}</h5>
 									<a href="{{url}}" class="tip_link" target="_blank">{{title}}</a>
-								</div>//end .tip_links
+								</div>{{!end .tip_links}}
 							{{/each}}
 						{{/if}}
-					</div>//end .grid_20 alpha
+					</div>{{!end .grid_20 alpha}}
 					<div class="grid_19 push_2">
 						<h2 class="tip_cost_title">Avg. Cost to Implement</h2>
 						<h1 class="tip_cost_title">{{cost}}</h1>
 					</div>
-				</div>//end .tip_body
-			</div>//end .tip_whole
+				</div>{{!end .tip_body}}
+			</div>{{!end .tip_whole}}
 		{{/each}}
 	</script>
 
