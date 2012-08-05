@@ -13,6 +13,43 @@
 ?>
 </head>
 <body>
+	<script type="text/x-handlebars-template" id="template">
+
+
+		{{#each this}}
+			<div class="tip_whole">
+				<div class="tip_header">
+					<h5 class="tip_title">
+						<b>{{title}}</b> - {{diff}}
+					</h5>
+					<div class="tip_social">
+						<a href="">twitter</a>
+						<a href="">facebook</a>
+						<a href="">email</a>
+					</div>
+				</div>//end .tip_title
+				<div class="tip_body">
+					<div class="grid_20 alpha">
+						<p class="tip_desc">{{description}}</p>
+						{{#if links}}
+							{{#each links}}
+								<div class="tip_links">
+									<h5>{More information}</h5>
+									<a href="{{url}}" class="tip_link" target="_blank">{{title}}</a>
+								</div>//end .tip_links
+							{{/each}}
+						{{/if}}
+					</div>//end .grid_20 alpha
+					<div class="grid_19 push_2">
+						<h2 class="tip_cost_title">Avg. Cost to Implement</h2>
+						<h1 class="tip_cost_title">{{cost}}</h1>
+					</div>
+				</div>//end .tip_body
+			</div>//end .tip_whole
+		{{/each}}
+	</script>
+
+
 <!--SPACER-->
 
 	<div class="container_48">
@@ -103,10 +140,10 @@
 		<div class="grid_44 push_2 spacer"></div>
 	</div>
 <!--SPACER-->
-
+	<script type="text/javascript" src="http://cloud.github.com/downloads/wycats/handlebars.js/handlebars-1.0.0.beta.6.js"></script>
 <?php echo $main->main_footer_WHOLE();
 	$main->main_includes_add_js('JS/tips.js');
-	$main->main_includes_add_js('JS/jquery.gchart.js');
+	// $main->main_includes_add_js('JS/jquery.gchart.js');
 ?>
 </body>
 </html>
