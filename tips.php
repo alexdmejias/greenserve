@@ -17,7 +17,7 @@
 
 
 		{{#each this}}
-			<div class="tip_whole {{addCat}}">
+			<div class="tip_whole {{addCat}} {{addDiff}}">
 
 				<div class="tip_header">
 					<h5 class="tip_title">

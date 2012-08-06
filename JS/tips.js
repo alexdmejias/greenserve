@@ -44,5 +44,8 @@
 			return this.cat == 'water' ? 'water' : this.cat== 'power' ? 'power' : 'paper';
 		});
 
+		Handlebars.registerHelper("addDiff", function(){
+			return this.diff == 'Invesment' ? 'hard' : this.diff == 'Low-Cost' ? 'medium' : 'easy';
+		});
 
 })();
