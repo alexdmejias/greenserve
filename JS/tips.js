@@ -18,34 +18,45 @@
 
 
 	});
-		function template(data){
-			var template= Handlebars.compile($('#template').html());
-			var temp = template(data);
-			$('.tip_container').append(temp);
-		}
+	function template(data){
+		var template= Handlebars.compile($('#template').html());
+		var temp = template(data);
+		$('.tip_container').append(temp);
+	}
 
 
+	$('#all').on('click',function(){
+		$('.tip_whole').slideDown();
+	});
 
-		$("#all").toggle(function(){
-			$('.tip_body, .power, .water, .paper').slideDown();
+	$('#subnav li:not(#all)').on('click',function(){
+		var ex = '.'+$(this).attr('id');
+		// console.log(ex);
+		$('.tip_whole').not(ex).slideUp(function(){
+			$(ex).slideDown();
+		});
+	})
+
+
+	//individual
+	$('.tip_container').on('click','.tip_whole',function(){
+		console.log($(this));
+
+		$(this).toggle(function(){
+			$(this).children('.tip_body').slideDown();
 		},function(){
-			$('.tip_body').slideUp();
-			$('.tip').slideDown();
-		});
+			$(this).children('.tip_body').slideUp();
+		})
+	});
 
-		$('.tip_title').click(function(){
-			$(this).parent().next('div').slideDown();
-		});
-		$('.tip_title').on('click',function(){
 
-		});
+	Handlebars.registerHelper("addCat", function() {
+		return this.cat == 'water' ? 'water' : this.cat== 'power' ? 'power' : 'paper';
+	});
 
-		Handlebars.registerHelper("addCat", function() {
-			return this.cat == 'water' ? 'water' : this.cat== 'power' ? 'power' : 'paper';
-		});
+	Handlebars.registerHelper("addDiff", function(){
+		return this.diff == 'Investment' ? 'hard' : this.diff == 'Low-Cost' ? 'medium' : 'easy';
+	});
 
-		Handlebars.registerHelper("addDiff", function(){
-			return this.diff == 'Invesment' ? 'hard' : this.diff == 'Low-Cost' ? 'medium' : 'easy';
-		});
 
 })();

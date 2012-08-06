@@ -14,11 +14,8 @@
 </head>
 <body>
 	<script type="text/x-handlebars-template" id="template">
-
-
 		{{#each this}}
 			<div class="tip_whole {{addCat}} {{addDiff}}">
-
 				<div class="tip_header">
 					<h5 class="tip_title">
 						<b>{{title}}</b> - {{diff}}
