@@ -18,8 +18,7 @@
 		"cat":"water",
 		"diff":"No-Cost",
 		"description":"Turn off the water while you brush your teeth. There is never a good reason for waste.",
-		"cost":"$0",
-		"links":[{"title":"","url":""}]
+		"cost":"$0"
 	},
 	{
 		"title":"duplex printing",

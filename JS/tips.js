@@ -8,7 +8,7 @@
 		url:'data/tips.json',
 		dataType:'json',
 		success:function(data){
-			console.log(data);
+			// console.log(data);
 			template(data);
 
 		},
@@ -20,8 +20,29 @@
 	});
 		function template(data){
 			var template= Handlebars.compile($('#template').html());
-			var temp = template(data)
-			$('.tip_container').append(temp)
+			var temp = template(data);
+			$('.tip_container').append(temp);
 		}
+
+
+
+		$("#all").toggle(function(){
+			$('.tip_body, .power, .water, .paper').slideDown();
+		},function(){
+			$('.tip_body').slideUp();
+			$('.tip').slideDown();
+		});
+
+		$('.tip_title').click(function(){
+			$(this).parent().next('div').slideDown();
+		});
+		$('.tip_title').on('click',function(){
+
+		});
+
+		Handlebars.registerHelper("addCat", function() {
+			return this.cat == 'water' ? 'water' : this.cat== 'power' ? 'power' : 'paper';
+		});
+
 
 })();

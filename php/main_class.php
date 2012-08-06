@@ -147,7 +147,7 @@ class main{
 	function main_footer_includes(){
 		echo '
 			<!--FOR JQUERY-->
-			<script src="JS/jquery-1.6.1.min.js" type="text/javascript"></script>
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
 
 			<!-- FOR FEEDS-->
 			<script type="text/javascript" src="https://www.google.com/jsapi?key=ABQIAAAAlIXLxNtLLFXqlhpXfskvTRT2yXp_ZAY8_ufC3CFXhHIE1NvwkxRMkZ06WubfTwbVs4KUsml2odgQfQ"></script>

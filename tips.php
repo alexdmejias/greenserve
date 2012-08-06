@@ -17,7 +17,8 @@
 
 
 		{{#each this}}
-			<div class="tip_whole">
+			<div class="tip_whole {{addCat}}">
+
 				<div class="tip_header">
 					<h5 class="tip_title">
 						<b>{{title}}</b> - {{diff}}
@@ -32,12 +33,12 @@
 					<div class="grid_20 alpha">
 						<p class="tip_desc">{{description}}</p>
 						{{#if links}}
+							<div class="tip_links">
+							<h5>More information</h5>
 							{{#each links}}
-								<div class="tip_links">
-									<h5>{More information}</h5>
 									<a href="{{url}}" class="tip_link" target="_blank">{{title}}</a>
-								</div>{{!end .tip_links}}
 							{{/each}}
+							</div>{{!end .tip_links}}
 						{{/if}}
 					</div>{{!end .grid_20 alpha}}
 					<div class="grid_19 push_2">
