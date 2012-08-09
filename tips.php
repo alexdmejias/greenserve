@@ -21,9 +21,7 @@
 						<b>{{title}}</b> - {{diff}}
 					</h5>
 					<div class="tip_social">
-						<a href=""><img src="IMG/media/twitter_16.png" alt="twiter link"/></a>
-						<a href=""><img src="IMG/media/facebook_16.png" alt="facebook link"/></a>
-						<a href=""><img src="IMG/media/email_16.png" alt="email link"/></a>
+						{{>addSocial}}
 					</div>
 				</div>{{!end .tip_title}}
 				<div class="tip_body">
