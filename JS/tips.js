@@ -22,7 +22,7 @@
 		dataType:'json',
 		success:function(data){
 			template(data);
-			addS(data);
+			addSocial(data);
 		},
 		error:function(a,b,c){
 			console.log(a+b+c)
@@ -37,7 +37,7 @@
 
 	};
 
-	function addS(data){
+	function addSocial(data){
 
 		$('.tip_social').each(function(index,value){
 			var append='';
@@ -50,7 +50,6 @@
 			}
 			$(this).append(append);
 		});
-
 	}
 
 	Handlebars.registerHelper("addCat", function() {
