@@ -21,7 +21,6 @@
 						<b>{{title}}</b> - {{diff}}
 					</h5>
 					<div class="tip_social">
-						{{>addSocial}}
 					</div>
 				</div>{{!end .tip_title}}
 				<div class="tip_body">
